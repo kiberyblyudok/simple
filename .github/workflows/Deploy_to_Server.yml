@@ -24,7 +24,7 @@ jobs:
       - name: Add server to known hosts
         run: |
           mkdir -p ~/.ssh
-          ssh-keyscan pathcreator.ru >> ~/.ssh/known_hosts
+          ssh-keyscan 92.63.104.191 >> ~/.ssh/known_hosts
 
       # Синхронизация файлов с удаленным сервером с использованием rsync
       - name: Sync files via rsync
