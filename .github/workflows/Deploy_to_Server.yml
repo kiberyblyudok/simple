@@ -29,4 +29,4 @@ jobs:
       # Синхронизация файлов с удаленным сервером с использованием rsync
       - name: Sync files via rsync
         run: |
-          rsync -avz --delete --exclude '.git*' ./ root@pathcreator.ru:/var/www/www-root/data/www/site.pathcreator.ru
+          rsync -avz --delete --exclude '.git*' ./ root@92.63.104.191:/var/www/www-root/data/www/site.pathcreator.ru
